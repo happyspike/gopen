@@ -8,7 +8,7 @@ Currently it will only works for github, but bitbucket and others will follow so
 
 Make sure go is installed with `$GOPATH/bin` in your `$PATH`
 
-`go get github.com/happyspike`
+`go get github.com/happyspike/gopen`
 
 Then run
 `gopen`
