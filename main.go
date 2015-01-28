@@ -1,10 +1,6 @@
 package main
 
 import (
-<<<<<<< HEAD
-	"fmt"
-=======
->>>>>>> 2f517bd9f967009898a1afdff8a33a388a9d08f8
 	"strings"
 
 	"github.com/happyspike/gopen/cmd"
@@ -16,12 +12,6 @@ func main() {
 	origin, _ := cmd.GitOriginUrl()
 	branch, _ := cmd.GitBranch()
 	repository := getRepositoryFromOriginUrl(origin)
-<<<<<<< HEAD
-	fmt.Println(origin)
-	fmt.Println(branch)
-	fmt.Println(repository)
-=======
->>>>>>> 2f517bd9f967009898a1afdff8a33a388a9d08f8
 	open.Start(github.GetGithubUrl(repository, branch))
 }
 
