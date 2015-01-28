@@ -9,5 +9,5 @@ func GitStatus() (string, error) {
 }
 
 func GitOriginUrl() (string, error) {
-	return Exec("git rev-parse --abbrev-ref HEAD")
+	return Exec("git config --get remote.origin.url")
 }
