@@ -22,11 +22,14 @@ func TestGetGithubUrl(t *testing.T) {
 		return ShouldMatch("https://github.com/new", url, t)
 	})
 
+<<<<<<< HEAD
 	Given("No repository with no branch", t, func() bool {
 		url := GetGithubUrl("", "")
 		return ShouldMatch("https://github.com/", url, t)
 	})
 
+=======
+>>>>>>> 2f517bd9f967009898a1afdff8a33a388a9d08f8
 	Given("Valid repository with branch", t, func() bool {
 		url := GetGithubUrl("happyspike/open", "foo")
 		return ShouldMatch("https://github.com/happyspike/open/tree/foo", url, t)
