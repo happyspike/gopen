@@ -1,6 +1,6 @@
 # gopen
 
-Opens a git repository in your browser.
+Opens a git repository in your browser from the terminal.
 
 Currently it will only works for github, but bitbucket and others will follow soon
 
